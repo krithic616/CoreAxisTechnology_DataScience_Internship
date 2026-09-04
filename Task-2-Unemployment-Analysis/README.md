@@ -24,12 +24,20 @@ The supplied CSV contained 768 rows, including 28 completely blank rows. After r
 ## Key findings from the supplied dataset
 - Overall mean unemployment rate: **11.79%**
 - Mean unemployment rate before March 2020: **9.51%**
-- Mean unemployment rate from March 2020 onward: **17.77%**
-- Monthly average increased from **10.70% in March 2020** to **23.64% in April 2020** and **24.88% in May 2020**.
-- June 2020 fell to **11.90%**, indicating a sharp reduction from the May peak.
+- Mean unemployment rate from March 2020 onward: **17.78%**
+- Monthly average unemployment rate: **10.70% in March 2020**, **23.64% in April 2020**, **24.88% in May 2020**, and **11.90% in June 2020**.
 - Average unemployment was **10.32% in rural observations** and **13.17% in urban observations**.
-- The five regions with the highest average unemployment rates in this dataset were Tripura, Haryana, Jharkhand, Bihar and Himachal Pradesh.
-- The correlation between unemployment rate and estimated employed was **-0.223** in the supplied observations. Correlation is descriptive and does not establish causation.
+- The five regions with the highest average unemployment rates were **Tripura (28.35%)**, **Haryana (26.28%)**, **Jharkhand (20.59%)**, **Bihar (18.92%)**, and **Himachal Pradesh (18.54%)**.
+- The correlation between unemployment rate and estimated employed was **-0.223**. The correlation between unemployment rate and labour participation rate was approximately **0.003**. These are descriptive relationships and do not establish causation.
+
+## Important Findings File
+Detailed findings, interpretation, policy-relevant considerations, and limitations are documented in:
+
+`IMPORTANT_FINDINGS.md`
+
+A compact numerical summary is available in:
+
+`important_findings_summary.csv`
 
 ## Visualizations
 The analysis script generates:
