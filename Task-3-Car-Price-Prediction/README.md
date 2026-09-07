@@ -70,23 +70,19 @@ Task-3-Car-Price-Prediction/
 ├── README.md
 ├── IMPORTANT_FINDINGS.md
 ├── data/
-│   └── car_data.csv
+│   └── README.md
 ├── notebooks/
 │   └── Car_Price_Prediction.ipynb
 ├── src/
 │   └── car_price_prediction.py
 ├── visualizations/
-│   ├── selling_price_distribution.svg
-│   ├── selling_vs_present_price.svg
-│   ├── selling_vs_car_age.svg
-│   ├── price_by_fuel_type.svg
-│   ├── correlation_matrix.svg
-│   ├── actual_vs_predicted.svg
-│   └── gradient_boosting_feature_importance.svg
+│   └── README.md
 ├── model_results.csv
 ├── cross_validation_results.csv
 └── feature_importance.csv
 ```
+
+The downloadable final project package contains the generated PNG/SVG visualizations and the original local dataset used for the internship analysis.
 
 ## Run the Project
 From the `Task-3-Car-Price-Prediction` directory:
