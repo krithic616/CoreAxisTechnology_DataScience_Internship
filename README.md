@@ -15,7 +15,7 @@ Data Science Internship projects completed as part of the CoreAxis Technology Pv
 Completed analysis of unemployment trends using the CoreAxis-specified dataset, including data cleaning, exploratory analysis, regional and rural/urban comparisons, early COVID-19 analysis, visualization, and descriptive relationship checks.
 
 ### Task 3 — Car Price Prediction with Machine Learning
-Machine learning project for predicting used-car prices using feature preprocessing, feature engineering, regression, and model evaluation.
+Completed machine-learning regression project for predicting used-vehicle selling prices using data cleaning, feature engineering, categorical preprocessing, Linear Regression, Random Forest, Gradient Boosting, hold-out evaluation, five-fold cross-validation, and feature interpretation.
 
 ### Task 4 — Sales Prediction using Python
 Sales prediction project covering data preparation, feature analysis, regression/forecasting, advertising-sales relationships, and business insights.
@@ -25,7 +25,7 @@ Sales prediction project covering data preparation, feature analysis, regression
 | Task | Status |
 |---|---|
 | Task 2 — Unemployment Analysis | **Completed** |
-| Task 3 — Car Price Prediction | Not Started |
+| Task 3 — Car Price Prediction | **Completed** |
 | Task 4 — Sales Prediction | Not Started |
 
 ## Tools
@@ -34,4 +34,4 @@ Python, Pandas, NumPy, Matplotlib, Scikit-learn, Jupyter Notebook
 
 ## Note
 
-The raw Task 2 dataset is kept outside the public repository. The Task 2 README identifies the exact dataset source and expected local path. Analysis code and notebook are included in the repository.
+Raw datasets are kept outside the public repository where appropriate. Each task README identifies the dataset source and local path. Analysis code, notebooks, results, and documentation are included in the repository.
