@@ -18,7 +18,7 @@ Completed analysis of unemployment trends using the CoreAxis-specified dataset, 
 Completed machine-learning regression project for predicting used-vehicle selling prices using data cleaning, feature engineering, categorical preprocessing, Linear Regression, Random Forest, Gradient Boosting, hold-out evaluation, five-fold cross-validation, and feature interpretation.
 
 ### Task 4 — Sales Prediction using Python
-Sales prediction project covering data preparation, feature analysis, regression/forecasting, advertising-sales relationships, and business insights.
+Completed sales prediction project using advertising expenditure data. The project covers data cleaning, exploratory analysis, advertising-sales correlations, Linear Regression and Random Forest regression, model evaluation, feature importance, visualizations, and actionable business insights.
 
 ## Project Status
 
@@ -26,12 +26,18 @@ Sales prediction project covering data preparation, feature analysis, regression
 |---|---|
 | Task 2 — Unemployment Analysis | **Completed** |
 | Task 3 — Car Price Prediction | **Completed** |
-| Task 4 — Sales Prediction | Not Started |
+| Task 4 — Sales Prediction | **Completed** |
+
+## Task 4 Results
+
+- Linear Regression R²: **0.8994**
+- Random Forest R²: **0.9826**
+- Strongest advertising predictor: **TV**
 
 ## Tools
 
 Python, Pandas, NumPy, Matplotlib, Scikit-learn, Jupyter Notebook
 
-## Note
+## Repository Structure
 
-Raw datasets are kept outside the public repository where appropriate. Each task README identifies the dataset source and local path. Analysis code, notebooks, results, and documentation are included in the repository.
+Each task contains its analysis code, notebooks, documentation, results, and visualizations. Raw/public datasets are included only where appropriate.
