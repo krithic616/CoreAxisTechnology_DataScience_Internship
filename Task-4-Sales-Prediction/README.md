@@ -1,30 +1,30 @@
-# Task 4 — Sales Prediction using Python
-
-CoreAxis Technology Data Science Internship — Task 4.
+# Task 4 – Sales Prediction Using Python
 
 ## Objective
-
-Predict future sales using the dataset specified by CoreAxis Technology, analyze the effect of advertising spend and target segments/platforms, and produce actionable marketing insights.
+Predict sales from advertising expenditure and identify which channels provide the strongest predictive signal.
 
 ## Dataset
+200 observations with TV, Radio, Newspaper and Sales. The original `Unnamed: 0` index was removed.
 
-Source specified in the internship brief: Kaggle — `bumba5341/advertisingcsv`.
+## Workflow
+Data inspection → cleaning → EDA → correlation analysis → 80/20 train-test split → Linear Regression and Random Forest → MAE/RMSE/R² evaluation → feature importance → business interpretation.
 
-## Planned Workflow
+## Results
+| Model | MAE | RMSE | R² |
+|---|---:|---:|---:|
+| Linear Regression | 1.4608 | 1.7816 | 0.8994 |
+| Random Forest | 0.6131 | 0.7403 | 0.9826 |
 
-1. Load and inspect the dataset.
-2. Clean and transform the data.
-3. Explore relationships between advertising variables and sales.
-4. Select relevant features.
-5. Train a regression or appropriate time-series model based on the dataset structure.
-6. Evaluate predictive performance.
-7. Analyze the impact of advertising spend on sales.
-8. Summarize actionable marketing insights.
+Random Forest is the best model with R² = 0.9826.
 
-## Structure
+## Key Findings
+- TV has the strongest correlation with Sales: 0.7822.
+- Radio correlation: 0.5762.
+- Newspaper correlation: 0.2283.
+- Random Forest feature importance is provided in `feature_importance.csv`.
 
-- `data/` — dataset files
-- `notebooks/` — analysis and modeling notebook(s)
-- `src/` — reusable Python code
-- `models/` — saved model artifacts when appropriate
-- `visualizations/` — exported charts
+## Business Insights
+TV is the strongest individual predictor in this dataset. Radio provides meaningful additional predictive signal, while Newspaper contributes much less. Budget allocation should nevertheless be validated with ROI/profit data before making real-world decisions.
+
+## Limitation
+The dataset has no dates, customer segments, geography, campaign quality or profitability fields. Therefore, this is channel-spend-based sales prediction, not time-series or segment-level forecasting.
